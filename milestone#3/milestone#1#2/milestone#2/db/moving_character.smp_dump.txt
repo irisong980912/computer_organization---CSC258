@@ -1,0 +1,11 @@
+
+State Machine - |moving_character|combined:c1|control:c0|current_state
+Name current_state.Draw_wait current_state.Erase_to_jump current_state.Draw_jump current_state.Down current_state.Up current_state.Erase_to_draw current_state.Erase_to_crawl current_state.Draw 
+current_state.Draw 0 0 0 0 0 0 0 0 
+current_state.Erase_to_crawl 0 0 0 0 0 0 1 1 
+current_state.Erase_to_draw 0 0 0 0 0 1 0 1 
+current_state.Up 0 0 0 0 1 0 0 1 
+current_state.Down 0 0 0 1 0 0 0 1 
+current_state.Draw_jump 0 0 1 0 0 0 0 1 
+current_state.Erase_to_jump 0 1 0 0 0 0 0 1 
+current_state.Draw_wait 1 0 0 0 0 0 0 1 

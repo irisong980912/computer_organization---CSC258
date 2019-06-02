@@ -1,0 +1,7 @@
+
+State Machine - |moving_background|combined:c1|control:c0|current_state
+Name current_state.New_x_y current_state.Erase current_state.Draw current_state.Start 
+current_state.Start 0 0 0 0 
+current_state.Draw 0 0 1 1 
+current_state.Erase 0 1 0 1 
+current_state.New_x_y 1 0 0 1 

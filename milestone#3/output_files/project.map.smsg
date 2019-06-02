@@ -1,0 +1,3 @@
+Info (10281): Verilog HDL Declaration information at obstacle.v(229): object "draw" differs only in case from object "Draw" in the same scope File: C:/Users/5308/Desktop/Computer_Organization_verilog--CSC258/project/milestone#3/obstacle.v Line: 229
+Warning (10268): Verilog HDL information at character.v(171): always construct contains both blocking and non-blocking assignments File: C:/Users/5308/Desktop/Computer_Organization_verilog--CSC258/project/milestone#3/character.v Line: 171
+Info (10281): Verilog HDL Declaration information at character.v(419): object "draw" differs only in case from object "Draw" in the same scope File: C:/Users/5308/Desktop/Computer_Organization_verilog--CSC258/project/milestone#3/character.v Line: 419

@@ -1,0 +1,23 @@
+
+State Machine - |project|combined:c1|final_control:comb_3|current_state
+Name current_state.GAME_OVER 
+current_state.Start 0 
+current_state.GAME_OVER 1 
+
+State Machine - |project|combined:c1|final_data:d0|obstacle:b0|control:c0|current_state
+Name current_state.New_x_y current_state.Erase current_state.Draw current_state.Start 
+current_state.Start 0 0 0 0 
+current_state.Draw 0 0 1 1 
+current_state.Erase 0 1 0 1 
+current_state.New_x_y 1 0 0 1 
+
+State Machine - |project|combined:c1|final_data:d0|character:c0|control1:c0|current_state
+Name current_state.Draw_wait current_state.Erase_to_jump current_state.Draw_jump current_state.Down current_state.Up current_state.Erase_to_draw current_state.Erase_to_crawl current_state.Draw 
+current_state.Draw 0 0 0 0 0 0 0 0 
+current_state.Erase_to_crawl 0 0 0 0 0 0 1 1 
+current_state.Erase_to_draw 0 0 0 0 0 1 0 1 
+current_state.Up 0 0 0 0 1 0 0 1 
+current_state.Down 0 0 0 1 0 0 0 1 
+current_state.Draw_jump 0 0 1 0 0 0 0 1 
+current_state.Erase_to_jump 0 1 0 0 0 0 0 1 
+current_state.Draw_wait 1 0 0 0 0 0 0 1 
